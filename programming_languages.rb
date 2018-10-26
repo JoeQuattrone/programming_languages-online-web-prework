@@ -43,7 +43,7 @@ def reformat_languages(languages)
         new_hash[language] ||= {}
         new_hash[language][:type] = type_value
         if new_hash[language]
-        new_hash[lang][:style] << style
+        new_hash[language][:style] << style
       else
         new_hash[language][:style] = [style]
 end
